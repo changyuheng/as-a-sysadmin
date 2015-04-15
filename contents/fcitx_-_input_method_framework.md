@@ -1,0 +1,2 @@
+# Fcitx - Input Method Framework
+
