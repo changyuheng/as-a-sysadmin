@@ -2,4 +2,4 @@
 
 ## Bookmarks
 
-- [Diigo](https://www.diigo.com/)
+* [Diigo](https://www.diigo.com/)
