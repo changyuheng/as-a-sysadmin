@@ -7,10 +7,10 @@
    * Docker
    * Gerrit
    * Nginx
+   * Phabricator
    * Postfix
    * PostgreSQL
    * Redmine
-   * Phabricator
 * [Ideas](contents/ideas.md)
    * [自行組合安全、好記且每個網站相異的密碼](contents/zi_xing_zu_he_an_quan_3001_hao_ji_qie_mei_ge_wang_zhan_xiang_yi_de_mi_ma.md)
 
