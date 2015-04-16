@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * Be a Power User
    * [Knowledge Repositories](contents/knowledge_repositories.md)
+   * Time Management
 * Max OS Desktop Environment
 * [Linux Desktop Environment](contents/linux_desktop_environment.md)
    * [Fcitx - Input Method Framework](contents/fcitx_-_input_method_framework.md)
