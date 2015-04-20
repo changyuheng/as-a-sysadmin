@@ -7,6 +7,7 @@
 * Max OS Desktop Environment
 * [Linux Desktop Environment](contents/linux_desktop_environment.md)
    * [Fcitx - Input Method Framework](contents/fcitx_-_input_method_framework.md)
+   * Add Android MTP Devices
 * [Linux Server](contents/linux_server.md)
    * Apache
    * Docker
