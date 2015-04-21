@@ -21,4 +21,4 @@ tab:not([selected="true"]) {
     background-color: #B9B9BD !important;
     color: #000000 !important;
 }
-```  
+```
