@@ -2,7 +2,13 @@
 
 ## userChrome.css
 
+Path:
+
+```text
 ~/.mozilla/firefox/<user>/chrome/userChrome.css
+```
+
+Default:
 
 ```css
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
