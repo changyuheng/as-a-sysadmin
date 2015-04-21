@@ -8,7 +8,7 @@
 * [Linux Desktop Environment](contents/linux_desktop_environment.md)
    * Add Android MTP Devices
    * [Fcitx - Input Method Framework](contents/fcitx_-_input_method_framework.md)
-   * Firefox
+   * [Firefox](contents/firefox.md)
 * [Linux Server](contents/linux_server.md)
    * Apache
    * Docker
