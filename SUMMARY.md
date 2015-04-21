@@ -14,7 +14,7 @@
    * Gerrit
    * MySQL
    * Nginx
-   * Phabricator
+   * [Phabricator](contents/phabricator.md)
    * php
    * Postfix
    * PostgreSQL
