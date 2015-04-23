@@ -6,7 +6,7 @@
    * [Time Management](contents/time_management.md)
 * Max OS Desktop Environment
 * [Linux Desktop Environment](contents/linux_desktop_environment.md)
-   * Add Android MTP Devices
+   * [Add Android MTP Devices](contents/add_android_mtp_devices.md)
    * [Fcitx - Input Method Framework](contents/fcitx_-_input_method_framework.md)
    * [Firefox](contents/firefox.md)
 * [Linux Server](contents/linux_server.md)
