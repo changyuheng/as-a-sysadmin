@@ -14,7 +14,7 @@
    * DNS
    * Docker
    * Gerrit
-   * MySQL
+   * [MySQL](contents/mysql.md)
    * Nginx
    * [Phabricator](contents/phabricator.md)
    * php
