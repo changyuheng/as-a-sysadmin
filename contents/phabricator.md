@@ -57,4 +57,5 @@ At `phabricator/ $`
 ```sh
 sudo -u phabricator bin/phd restart
 sudo -u phabricator bin/aphlict restart
+/usr/sbin/sshd -f /etc/ssh/sshd_config.phabricator
 ```
