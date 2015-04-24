@@ -56,5 +56,5 @@ At `phabricator/ $`
 
 ```sh
 sudo -u phabricator bin/phd restart
-sudo -u phabricator bin/aphlict start
+sudo -u phabricator bin/aphlict restart
 ```
