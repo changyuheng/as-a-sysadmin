@@ -55,6 +55,6 @@ docker run --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:data
 At `phabricator/ $`
 
 ```sh
-bin/phd restart
-sudo -u nobody bin/aphlict start
+sudo -u phabricator bin/phd restart
+sudo -u phabricator bin/aphlict start
 ```
