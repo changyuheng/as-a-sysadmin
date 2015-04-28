@@ -46,8 +46,16 @@
 
 ## Run on docker
 
+Deprecated:
+
 ```sh
 docker run --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:database -d changyuheng/phabricator bash -c "source /etc/apache2/envvars; /usr/sbin/apache2 -DFOREGROUND"
+```
+
+Updated:
+
+```sh
+docker run --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:database -it changyuheng/phabricator bash
 ```
 
 ## Start the daemons
@@ -55,7 +63,8 @@ docker run --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:data
 At `phabricator/ $`
 
 ```sh
-sudo -u phabricator bin/phd restart
-sudo -u phabricator bin/aphlict restart
+source /etc/apache2/envvars; /usr/sbin/apache2
+sudo -u phabricator /home/phabricator/phabricator/bin/phd restart
+sudo -u phabricator /home/phabricator/phabricator/bin/aphlict restart
 /usr/sbin/sshd -f /etc/ssh/sshd_config.phabricator
 ```
