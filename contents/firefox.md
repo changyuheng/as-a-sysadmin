@@ -5,7 +5,7 @@
 Path:
 
 ```text
-~/.mozilla/firefox/\<user\>/chrome/userChrome.css
+~/.mozilla/firefox/USER/chrome/userChrome.css
 ```
 
 Default:
