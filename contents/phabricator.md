@@ -58,6 +58,12 @@ Updated:
 docker run --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:database -it changyuheng/phabricator bash
 ```
 
+More updated:
+
+```sh
+docker run -d --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:database --entrypoint=/entrypoint.sh changyuheng/phabricator
+```
+
 ## Start the daemons
 
 At `phabricator/ $`
