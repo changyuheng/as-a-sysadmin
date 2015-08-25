@@ -64,6 +64,17 @@ More updated:
 docker run -d --name phab -p 8081:80 -p 22:22 -p 22280:22280 --link phab-mysql:database --entrypoint=/entrypoint.sh changyuheng/phabricator
 ```
 
+entrypoint.sh
+```sh
+#!/bin/bash
+set -e
+
+sudo -u phabricator /home/phabricator/phabricator/bin/phd restart
+sudo -u phabricator /home/phabricator/phabricator/bin/aphlict restart
+/usr/sbin/sshd -f /etc/ssh/sshd_config.phabricator
+source /etc/apache2/envvars; /usr/sbin/apache2ctl -D FOREGROUND
+```
+
 ## Start the daemons
 
 At `phabricator/ $`
